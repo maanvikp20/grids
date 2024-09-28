@@ -2,17 +2,18 @@ body{
   margin: 0;
   padding: 0;
   font-family: Arial;
+  border: 7px solid gray;
 }
 
 nav{
   display: flex;
-  background-color: gray;
+  background-color: plum;
 
 }
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 nav > a{
@@ -35,8 +36,7 @@ nav > a{
   "brown_magician santa pink_banner_woman pink_banner_woman free_shipping"
   "props santa animated_halloween1 animated_halloween2 witches_ghouls_goblins"
   "blackmask mask mask . address";
-  gap: 10px;
-  border: 3px solid gray;
+  gap: 5px;
   padding: 6px;
 }
 .costume_expressions{
@@ -113,4 +113,9 @@ nav > a{
   color: red;
   padding-right: 20px;
   text-align: right;
+}
+
+.address > .text > p {
+  margin: 0;
+  padding: 0;
 }
